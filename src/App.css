@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+  font-family: "poppins","regular";
+}
+
 .App {
   text-align: center;
 }
@@ -24,6 +30,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +43,43 @@
     transform: rotate(360deg);
   }
 }
+
+:root{
+ --nkt:white;
+}
+
+
+/* Logo style */
+.logo{
+  width: 10.25rem;
+}
+nav a.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  color: var(--nkt)
+}
+.navbar-nav > li > a{
+  text-transform: uppercase;
+  font-family: "poppins";
+  margin-left: 0.75rem;
+  margin-right: 00.75rem;
+  border-top: rgb(255, 255, 255, 0) 0.1875rem solid;
+}
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0;
+  
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:active.focus{
+  border-top: orange 0.1875rem solid;
+}
+.navbar-nav > li > a:hover{
+  border-top: orange 0.1875rem solid;
+}
+/* a.active{
+  
+  border-top: orange 0.1875rem solid;
+} */
+/* nav ul li a :focus{
+  border-top: orange 0.1875rem solid;
+} */
